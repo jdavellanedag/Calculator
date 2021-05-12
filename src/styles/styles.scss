@@ -1,0 +1,59 @@
+@import "./base/settings";
+@import "./base/base";
+
+.calculator {
+  border-radius: 50px;
+  margin: 50px auto;
+  width: 600px;
+  height: 725px;
+  text-align: center;
+  background-color: $primary;
+  color: $result-font;
+  padding-top: 30px;
+  box-shadow: 0 -30px 0 0 $shadow inset;
+
+  h1 {
+    margin-top: 10px;
+  }
+
+  .result {
+    background-color: $result;
+    padding-right: 10px;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: right;
+    font-size: 100px;
+    font-family: "Digital";
+    box-shadow: 0 -20px 0 0 $result-shadow inset;
+  }
+
+  .buttons {
+    margin-top: 50px;
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px auto;
+      width: 500px;
+      height: 100px;
+
+      input {
+        background-color: $button;
+        color: $button-font;
+        border-radius: 10px;
+        text-align: center;
+        width: 100px;
+        font-size: 80px;
+        box-shadow: -5px -8px 0 0 $button-shadow inset;
+        cursor: pointer;
+      }
+
+      #equals {
+        background-color: $button-equals;
+        box-shadow: -5px -8px 0 0 $button-equals-shadow inset;
+      }
+    }
+  }
+}

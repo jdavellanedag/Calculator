@@ -1,0 +1,16 @@
+// Colors
+$primary: #616268;
+$shadow: #515359;
+$result: #d0d6e1;
+$result-shadow: #c3c8d4;
+$result-font: #000;
+$button: #ffffff;
+$button-shadow: #e4e5e6;
+$button-font: #000;
+$button-equals: #f89734;
+$button-equals-shadow: #e88535;
+
+@font-face {
+  font-family: "Digital";
+  src: local("Digital"), url("../font/DS-DIGII.TTF") format("truetype");
+}
